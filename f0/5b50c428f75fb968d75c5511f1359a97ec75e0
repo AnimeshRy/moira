@@ -1,0 +1,88 @@
+internal/photos/photos_test.go
+  s_6dab7409b0cf36::t_4e347a4be14a2c 17,22,70-72
+  s_6dab7409b0cf36::t_7ee05684fcd37a 1-16,18-21,23-69,73-77
+internal/tui/export.go
+  s_7c272405ad5f16::t_213e2124736475 10-11
+  s_7c272405ad5f16::t_57fcdb4d0b493b 34
+  s_7c272405ad5f16::t_56b57ae056d4de 20,22-33,35-68,90-109,119,121
+  s_6dab7409b0cf36::t_4e347a4be14a2c 71,74-78,86-88,114
+  s_7c272405ad5f16::t_5199deeb0fcfb7 1-9,12-19,21,69-70,72-73,79-85,89,110-113,115-118,120
+go.mod
+  s_7c272405ad5f16::t_213e2124736475 1
+  s_7c272405ad5f16::t_b6a549b3a198b6 2-43
+README.md
+  s_7c272405ad5f16::t_fbacd6e40ed56f 19-26,87,246
+  s_7c272405ad5f16::t_c2696a46134ac6 90,92,132,168,170,182,247
+  s_7c272405ad5f16::t_a85fcc52d3b719 31
+  s_7c272405ad5f16::t_ada6e3159a10c2 1,3-5,7-9,11-17,27,29-30,32-74,77-85,89,91,93-129,131,133-134,136-167,169,171-181,183-245,248
+  s_6dab7409b0cf36::t_8fce2d45f9f7bd 2,6,10,18,28,75-76,86,88,130,135
+Makefile
+  s_6dab7409b0cf36::t_8fce2d45f9f7bd 1-7
+LICENSE
+  s_7c272405ad5f16::t_fbacd6e40ed56f 1-21
+internal/tui/render_test.go
+  s_7c272405ad5f16::t_213e2124736475 7
+  s_7c272405ad5f16::t_ec72875d062de4 1-6,8-49
+internal/idevice/idevice_test.go
+  s_7c272405ad5f16::t_cd52e2a963b2e5 1-115
+docs/HANDOFF.md
+  s_7c272405ad5f16::t_08ed29eb523426 29,34
+  s_7c272405ad5f16::t_41953a68edb624 19-23,31-33,36-38,41,62-111,148-149,161-163,165-167
+  s_6dab7409b0cf36::t_7072d2e6d51d5b 1-18,24-28,30,35,39-40,42-61,112-147,150-160,164
+internal/photos/photos.go
+  s_7c272405ad5f16::t_5673f0a923b5de 195
+  s_7c272405ad5f16::t_213e2124736475 17
+  s_6dab7409b0cf36::t_7ee05684fcd37a 1-16,18-41,43-50,55-175,191-193,196-219,221-231
+  s_6dab7409b0cf36::t_4e347a4be14a2c 42,194,220
+  s_6dab7409b0cf36::t_4a801bee9fb1f1 51-54
+  s_7c272405ad5f16::t_4c9f85921ec628 176-190
+internal/idevice/stat.go
+  s_7c272405ad5f16::t_55d102679f0611 1-140
+cmd/moira/main.go
+  s_7c272405ad5f16::t_213e2124736475 15-16
+  s_7c272405ad5f16::t_32b49d1a13bc77 24-91
+  s_7c272405ad5f16::t_4dcba8b28920b8 1-14,17-23
+internal/tui/tui_test.go
+  s_7c272405ad5f16::t_76dc86ce4e4019 1-5,7-48
+  s_7c272405ad5f16::t_213e2124736475 6
+internal/tui/tui.go
+  s_7c272405ad5f16::t_d8718bb156e5b3 84,88,92,147,149,320,322,534-539,579,581-618,620-656,669,671
+  s_7c272405ad5f16::t_233cbb7bc2b159 312,317-318,327-333,336-413,416-418,421-497,503-528,546,558,560-569,574,576,667
+  s_6dab7409b0cf36::t_4e347a4be14a2c 93-97,551
+  s_7c272405ad5f16::t_bdafbe5735716d 10,334-335,414-415,419-420,547-550
+  s_7c272405ad5f16::t_acb1ce172ea26a 45-58,81,83,98-146,148,166-306
+  s_7c272405ad5f16::t_76dc86ce4e4019 498-502
+  s_7c272405ad5f16::t_213e2124736475 22-23,619
+  s_6dab7409b0cf36::t_4a801bee9fb1f1 9,27-38,61-79,158-165
+  s_7c272405ad5f16::t_26a799b6b4204c 1-8,11-21,24-26,39-44,59-60,80,82,85-87,89-91,150-157,307-311,313-316,319,321,323-326,529-533,540-545,552-557,559,570-573,575,577-578,580,657-666,668,670
+.gitignore
+  s_6dab7409b0cf36::t_75addff8ec44a4 1-2
+internal/idevice/afc.go
+  s_7c272405ad5f16::t_eec9c3321f631e 1-88
+internal/idevice/idevice.go
+  s_6dab7409b0cf36::t_dac538ee79800d 1-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f05b50c428f75fb968d75c5511f1359a97ec75e0",
+  "prompts": {},
+  "sessions": {
+    "s_6dab7409b0cf36": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cade20a5-eb6d-4459-b5e9-32b280dc299f",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "AnimeshRy <animesh.gautam@1mg.com>"
+    },
+    "s_7c272405ad5f16": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55853eac-ef70-4a58-aaea-9846295de8e1",
+        "model": "claude-opus-5"
+      },
+      "human_author": "AnimeshRy <animesh.gautam@1mg.com>"
+    }
+  }
+}
