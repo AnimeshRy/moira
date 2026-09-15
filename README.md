@@ -145,7 +145,7 @@ Files land under `~/Pictures/Moira/Documents/<path on the phone>/`. Directories 
 
 ```bash
 moira -out /Volumes/Backup/iPhone       # export somewhere else
-moira -udid 00008120-001E05D01A39A01E   # when two phones are plugged in
+moira -udid 00008120-001E05D01A39A01E   # skip the picker when two phones are plugged in
 ```
 
 Photos go to `<out>/<Album>/`, documents to `<out>/Documents/<phone path>/`.

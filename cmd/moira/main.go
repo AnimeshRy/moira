@@ -57,7 +57,11 @@ func run(udid, out, cmd string) error {
 			return fmt.Errorf("device %s not connected", udid)
 		}
 	case len(devs) > 1:
-		return fmt.Errorf("%d devices connected, pick one with -udid (see `moira devices`)", len(devs))
+		d, perr := tui.PickDevice(devs)
+		if perr != nil {
+			return fmt.Errorf("%d devices connected, pick one with -udid (see `moira devices`)", len(devs))
+		}
+		dev = d
 	default:
 		dev = devs[0]
 	}

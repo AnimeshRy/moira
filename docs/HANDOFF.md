@@ -26,7 +26,7 @@ Mac. Export only; nothing is ever written to the phone.
 
 | Path | Purpose |
 |---|---|
-| `cmd/moira/main.go` | Flags `-udid`, `-out` (default `~/Pictures/Moira`); `moira devices` and `moira info` subcommands; otherwise starts TUI. `moira info` prints device/storage/battery as plain text — the cheapest way to check that data source without the TUI. |
+| `cmd/moira/main.go` | Flags `-udid`, `-out` (default `~/Pictures/Moira`); `moira devices` and `moira info` subcommands; otherwise starts TUI. Two or more devices and no `-udid` opens `tui.PickDevice`, falling back to a "pick one with -udid" error when there is no terminal. `moira info` prints device/storage/battery as plain text — the cheapest way to check that data source without the TUI. |
 | `internal/idevice/idevice.go` | Shells out to `idevice_id -l`, `ideviceinfo -k DeviceName`, `afcclient -u UDID get /path local`. |
 | `internal/idevice/stat.go` | `Stat()` → `Info`: identity, disk-usage categories, battery health. `parseKV` reads ideviceinfo's `Key: value` output; `plistInt` regex-scrapes three GasGauge ints out of idevicediagnostics' XML. |
 | `internal/idevice/afc.go` | `Ls()` → `[]Entry` for the documents browser: `afcclient ls` for names + one `afcclient info` per name for size/type/mtime. |
